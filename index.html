@@ -4,144 +4,86 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Lake Apo | Visitor Guide – Valencia City, Bukidnon</title>
-  <meta name="description" content="Plan your visit to Lake Apo, a crater lake in Valencia City, Bukidnon. Facts, activities, rules, directions, and booking inquiries.">
+  <meta name="description" content="Discover Lake Apo, a serene crater lake in Valencia City, Bukidnon. Explore activities, history, visitor guidelines, and plan your trip.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-  <!-- NAVIGATION -->
   <header class="navbar">
-    <a href="#home" class="logo">Lake Apo</a>
+    <a href="index.html" class="logo">Lake Apo</a>
     <input type="checkbox" id="menuToggle" class="menu-toggle" aria-label="Toggle menu">
     <label for="menuToggle" class="menu-btn" aria-hidden="true">&#9776;</label>
     <nav id="nav">
-      <a href="#home">Home</a>
-      <a href="#about">About the Lake</a>
-      <a href="#activities">Activities</a>
-      <a href="#rules">Fees &amp; Rules</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#visit">Plan Your Visit</a>
-      <a href="#book" class="nav-cta">Contact / Book</a>
+      <a href="index.html" class="active">Home</a>
+      <a href="history&ecology.html">History &amp; Ecology</a>
+      <a href="activities.html">Activities &amp; Gallery</a>
+      <a href="visit.html">Plan Your Visit</a>
+      <a href="contact.html" class="nav-cta">Contact / Book</a>
     </nav>
   </header>
 
-  <!-- HOME -->
-  <section id="home" class="hero">
-    <div class="hero-text">
-      <p class="tag">Valencia City, Bukidnon</p>
-      <h1>Discover Lake Apo</h1>
-      <p>A calm, green crater lake in the hills of Northern Mindanao.</p>
-      <a href="#book" class="btn">Plan Your Visit</a>
-    </div>
-  </section>
-
-  <!-- ABOUT -->
-  <section id="about" class="section">
-    <h2>About the Lake</h2>
-    <p class="lead">Lake Apo is a crater lake in Barangay Guinoyoran, Valencia City. It was once recognized as the cleanest inland body of water in Northern Mindanao. In Bisaya, <em>apo</em> means elder or grandparent.</p>
-    <div class="facts">
-      <div class="fact"><strong>24 ha</strong><span>Surface area</span></div>
-      <div class="fact"><strong>26 m</strong><span>Max depth</span></div>
-      <div class="fact"><strong>640 m</strong><span>Elevation</span></div>
-      <div class="fact"><strong>11 km</strong><span>From city proper</span></div>
-    </div>
-  </section>
-
-  <!-- ACTIVITIES -->
-  <section id="activities" class="section alt">
-    <h2>Activities &amp; Facilities</h2>
-    <div class="cards">
-      <article class="card"><div class="icon">&#127956;</div><h3>Scenic Viewing</h3><p>Enjoy the green water and the surrounding hills.</p></article>
-      <article class="card"><div class="icon">&#129466;</div><h3>Picnics</h3><p>Bring family or friends for a relaxing day by the water.</p></article>
-      <article class="card"><div class="icon">&#128247;</div><h3>Photography</h3><p>Great light in the early morning and late afternoon.</p></article>
-      <article class="card"><div class="icon">&#128738;</div><h3>Raft Cottages</h3><p>Cottages by the lake for groups. Ask about availability.</p></article>
-    </div>
-  </section>
-
-  <!-- FEES AND RULES -->
-  <section id="rules" class="section">
-    <h2>Fees &amp; Rules</h2>
-    <p class="note">Fees and schedules vary and must be confirmed with the lake’s management before your visit.</p>
-    <div class="two-col">
-      <div>
-        <h3>Visitor Guidelines</h3>
-        <ul>
-          <li>Do not litter. Take your trash with you.</li>
-          <li>Follow the staff’s instructions at all times.</li>
-          <li>Respect the lake, wildlife, and local community.</li>
-        </ul>
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="tag">Valencia City, Bukidnon</p>
+        <h1>Discover Lake Apo</h1>
+        <p>A calm, emerald crater lake nestled in the rolling hills of Northern Mindanao.</p>
+        <div class="hero-buttons">
+          <a href="visit.html" class="btn">Plan Your Visit</a>
+          <a href="history&ecology.html" class="btn outline">Explore History</a>
+        </div>
       </div>
-      <div class="safety">
-        <h3>Safety Reminders</h3>
-        <ul>
-          <li>Swim only where and when it is allowed.</li>
-          <li>Always supervise children near the water.</li>
-          <li>Wear a life vest when using rafts or boats.</li>
-        </ul>
+    </section>
+
+    <section class="section reveal">
+      <h2>Lake Apo by the Numbers</h2>
+      <p class="lead">Located in Barangay Guinoyoran, Valencia City, Lake Apo is celebrated for its tranquil emerald waters and rich local heritage.</p>
+      <div class="facts">
+        <div class="fact"><strong class="counter" data-target="24" data-suffix=" ha">0 ha</strong><span>Surface area</span></div>
+        <div class="fact"><strong class="counter" data-target="26" data-suffix=" m">0 m</strong><span>Max depth</span></div>
+        <div class="fact"><strong class="counter" data-target="640" data-suffix=" m">0 m</strong><span>Elevation</span></div>
+        <div class="fact"><strong class="counter" data-target="11" data-suffix=" km">0 km</strong><span>From city proper</span></div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- GALLERY -->
-  <section id="gallery" class="section alt">
-    <h2>Gallery</h2>
-    <div class="gallery">
-     
-      <div class="photo p1">Lake view</div>
-      <div class="photo p2">Raft cottages</div>
-      <div class="photo p3">Hills</div>
-      <div class="photo p4">Sunrise</div>
-    </div>
-  </section>
-
-  <!-- PLAN YOUR VISIT -->
-  <section id="visit" class="section">
-    <h2>Plan Your Visit</h2>
-    <div class="two-col">
-      <div>
-        <h3>Getting There</h3>
-        <p>Lake Apo is about 11 km from the Valencia City proper. From Cagayan de Oro or Davao, travel to Valencia City first, then continue to Barangay Guinoyoran.</p>
-        <a class="btn small" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Lake+Apo+Valencia+Bukidnon">Open in Google Maps</a>
+    <section class="section alt reveal">
+      <h2>Explore the Guide</h2>
+      <p class="lead">Everything you need for a peaceful getaway in Bukidnon.</p>
+      <div class="cards">
+        <article class="card">
+          <div class="icon">&#127793;</div>
+          <h3>History &amp; Ecology</h3>
+          <p>Discover how the crater lake formed and how local communities protect its clean waters.</p>
+          <a href="history&ecology.html" class="btn small">Read History</a>
+        </article>
+        <article class="card">
+          <div class="icon">&#128738;</div>
+          <h3>Activities &amp; Gallery</h3>
+          <p>Filter lakeside experiences and click gallery cards for full-screen previews.</p>
+          <a href="activities.html" class="btn small">See Activities</a>
+        </article>
+        <article class="card">
+          <div class="icon">&#128176;</div>
+          <h3>Trip Cost Estimator</h3>
+          <p>Calculate estimated entrance and raft cottage expenses before your trip.</p>
+          <a href="visit.html" class="btn small">Estimate Cost</a>
+        </article>
+        <article class="card">
+          <div class="icon">&#128197;</div>
+          <h3>Cottage Inquiries</h3>
+          <p>Preview your reservation details live and submit a booking inquiry.</p>
+          <a href="contact.html" class="btn small">Inquire Now</a>
+        </article>
       </div>
-      <div>
-        <h3>FAQs</h3>
-        <details><summary>Is there an entrance fee?</summary><p>100 pesos per pax</p></details>
-        <details><summary>What should I bring?</summary><p>Water, sun protection, extra clothes, and a bag for your trash.</p></details>
-        <details><summary>Can I book a cottage?</summary><p>Send an inquiry using the form below.</p></details>
-      </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <!-- CONTACT / BOOK -->
-  <section id="book" class="section alt">
-    <h2>Contact / Book</h2>
-    <form id="bookForm" action="#thanks" method="get">
-      <label>Full name
-        <input type="text" id="name" name="name" placeholder="Juan Dela Cruz" required minlength="2">
-      </label>
-      <label>Email or mobile number
-        <input type="text" id="contact" name="contact" placeholder="you@email.com or 09XXXXXXXXX" required minlength="5">
-      </label>
-      <label>Date of visit
-        <input type="date" id="date" name="date" required>
-      </label>
-      <label>Number of guests
-        <input type="number" id="guests" name="guests" min="1" max="100" value="2" required>
-      </label>
-      <label>Message (optional)
-        <textarea id="message" name="message" rows="3" placeholder="Preferred cottage, questions, etc."></textarea>
-      </label>
-      <button type="submit" class="btn">Send Inquiry</button>
-      <p id="thanks" role="status">Thank you! Your inquiry form was submitted (demo only &ndash; no data is sent). The lake&rsquo;s management would confirm availability.</p>
-    </form>
-  </section>
-
-  <!-- FOOTER -->
   <footer>
     <p><strong>Lake Apo Visitor Guide</strong> – Valencia City, Bukidnon, Philippines</p>
-    <p><a href="#home">Back to top &uarr;</a></p>
+    <p>A student project by Janna G. Gonzales, BSIT-2C. Not an official website.</p>
+    <p><a href="#">Back to top &uarr;</a></p>
   </footer>
 
 </body>
